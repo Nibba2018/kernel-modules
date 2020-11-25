@@ -1,1 +1,0 @@
-cmd_/home/nibba/OSS/kernel-modules/hello-world/Module.symvers := sed 's/ko$$/o/' /home/nibba/OSS/kernel-modules/hello-world/modules.order | scripts/mod/modpost -m -a   -o /home/nibba/OSS/kernel-modules/hello-world/Module.symvers -e -i Module.symvers  -N -T -
